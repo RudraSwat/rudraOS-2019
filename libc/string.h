@@ -2,14 +2,13 @@
 #define STRING_H
 
 #include "types.h"
+
 uint16 strlength(string ch)
 {
         uint16 i = 1;
         while(ch[i++]);  
         return --i;
 }
-
-/* Added in episode 3*/ /*This function compares two strings and returns true (1) if they are equal or false (0) if they are not equal */
 
 uint8 strEql(string ch1,string ch2)                     
 {
@@ -26,6 +25,5 @@ uint8 strEql(string ch1,string ch2)
         }
         return result;
 }
-
 
 #endif
