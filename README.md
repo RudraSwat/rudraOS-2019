@@ -1,5 +1,5 @@
 # rudraOS-2019
-#### With Peck kernel 2019
+#### With Peck kernel 2019 (with Saturn spec)
 
 This OS has been built by Rudra Saraswat.
 
