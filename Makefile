@@ -15,4 +15,4 @@ kc.o:
 	$(CC) $(CFLAGS) kernel.c -o kc.o
 
 clean:
-	rm kasm.o kc.o rudraOS/boot/kernel.bin
+	rm kasm.o kc.o rudraOS/boot/kernel.bin rudraOS.iso
